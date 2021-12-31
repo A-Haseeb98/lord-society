@@ -1,0 +1,39 @@
+.cover_container{
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* padding: 20px; */
+}
+
+.cover_container img{
+    display: inline-block;
+    padding-top: 50px;
+    height: 520px;
+    margin: 0 auto;
+}
+.main_heading{
+    position: absolute;
+    bottom: 180px;
+    text-align: center;
+    font-size: 105px;
+    line-height: 105px;
+    color: #f8f8f8;
+    margin: 0;    
+}
+
+.cover_container button{
+    margin-bottom: 30px;
+}
+.arrow{
+    color: #f8f8f8;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 900;
+}
+.arrow:hover {
+    -webkit-animation: action 1s infinite  alternate;
+    animation: action 1s infinite  alternate;
+}
