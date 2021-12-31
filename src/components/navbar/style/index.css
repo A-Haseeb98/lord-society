@@ -7,7 +7,6 @@
     align-items: center ;
     height: 90px;
     padding: 0 9%;
-    display: none;
 }
 .logo_container{
     height: 70%;
@@ -49,13 +48,25 @@
     cursor: pointer;
 }
 
+.navbar_container_mobile{
+    background-color: black;
+    color: white;
+    padding: 0 4%;
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar_container{
+        display: none;
+    }
+
+
 /* mobile view */
 .navbar_container_mobile{
     background-color: black;
     color: white;
     padding: 0 4%;
-
-
+    display: block;
 }
 .header_wrapper{
     display: flex;
@@ -101,4 +112,7 @@
     font-size: 15px;
     padding: 18px 0;
     border-bottom: 1px solid white;
+}
+
+
 }

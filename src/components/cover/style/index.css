@@ -1,5 +1,5 @@
 .cover_container{
-    background-color: purple;
+    background-image: url('../../../assets/images/background.png');
     display: flex;
     flex-direction: column;
     justify-content: center;

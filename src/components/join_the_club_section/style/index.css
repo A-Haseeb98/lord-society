@@ -1,0 +1,45 @@
+.join_container{
+    display: flex;
+    height: 100vh;
+    padding: 0 17%;
+    background-color: black;
+}
+.content_container{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+
+}
+.content_container h1{
+    width: 100%;
+}
+
+.content_container p{
+    font-family: 'Poppins', sans-serif;
+   font-size: 15px;
+   line-height: 24px;
+   color: #999999;
+}
+
+.content_container p span{
+    color: #f8f8f8;
+ }
+
+ .images_contaier{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+ }
+ .images_contaier div{
+    flex-basis: 50%;
+    padding: 7px 10px;
+}
+.images_contaier div img{
+    width: 100%;
+    border-radius: 10px;
+}
