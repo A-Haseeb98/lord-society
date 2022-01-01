@@ -11,7 +11,7 @@ function Welcome() {
                     <br/>
                     Each piece is <span> a unique 3D artwork </span> with a collection of more than <span> 150+ traits. </span> The objective is to build the strongest community and project around NFTs.
                 </p>
-                <button className='theme-btn'>Join Us</button>
+                <button className='theme-btn'>JOIN US</button>
             </div>
             <div className='carousal_contaier'>
                 <img src={MEN} alt='slider'/>

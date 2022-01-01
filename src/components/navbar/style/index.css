@@ -29,8 +29,11 @@
    font-size: 20px;
 }
 .menu_section li:hover{
+    font-weight: 500;
+    padding: 12px 15px;
     color: #ff0066;
     cursor: pointer;
+    padding-bottom: 10px;
     border-bottom: 3px solid #121FCF;
  }
 
@@ -63,20 +66,22 @@
 
 /* mobile view */
 .navbar_container_mobile{
-    background-color: black;
-    color: white;
-    padding: 0 4%;
+    padding: 5px 15px;
     display: block;
+    position: relative;
 }
+
 .header_wrapper{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center ;
-    height: 50px;
+    height: 60px;
+    flex: 1;
 }
 .logo_container_mobile{
-    height: 70%;
+    height: 60%;
+    flex: 0.7  ;
 }
 
 .logo_container_mobile img{
@@ -88,31 +93,33 @@
 }
 
 .icons_container_mobile span{
-    line-height: 22px;
-    font-size: 22px;
-    padding: 0 5px;
+    line-height: 25px;
+    font-size: 25px;
+    padding: 5px 5px;
 }
 .navbar_btn_mobile{
     color: white;
     background-color: transparent;
     border: none;
-    line-height: 22px;
-    font-size: 22px;
+    line-height: 25px;
+    font-size: 25px;
 }
 
 .menu_section_mobile{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    padding-left: 0px;
+    position: absolute;
+    z-index: 2;
+    background-color: black;
+    width: 100%;
+    margin-left: -15px;
 }
 .menu_section_mobile li{
     margin: 0;
     padding: 0;
     line-height: 15px;
     font-size: 15px;
-    padding: 18px 0;
+    padding: 20px 15px;
     border-bottom: 1px solid white;
 }
-
-
 }

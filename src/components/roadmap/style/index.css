@@ -1,0 +1,46 @@
+.roadmap_container{
+    background-color: black;
+    color: white;
+    text-align: center;
+}   
+.roadmap_title{
+    font-size: 30px;
+    line-height: 30px;
+    font-family: 'Audiowide', sans-serif;
+}
+.roadmap_wrapper{
+}
+.r_section{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;  
+    align-items: flex-start;
+
+}
+.r_section .content_section{
+    text-align: left;
+    width: 47%;
+}
+    .num_section{
+    display: flex;
+    align-items : center;  
+    justify-content: center;
+    width: 100px;
+}
+
+.l_section{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+.l_section .content_section{
+    text-align: right;
+    width: 47%;
+}
+
+.num_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-content: flex-start;
+}

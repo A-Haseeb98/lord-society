@@ -25,8 +25,6 @@
     color: #f8f8f8;
  }
 
-
-
 .carousal_contaier{
 flex-basis: 50%;
 display: flex;
@@ -36,4 +34,36 @@ align-items: center;
 }
 .carousal_contaier img{
     width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+
+    .welcome_container{
+        margin-top: 45px;
+        display: block;
+        height: fit-content;
+        padding: 0;
+    }
+    .content_container{
+        width: 100%;
+        text-align: center !important;
+        padding: 5%;
+    }
+    
+    .content_container p{
+        font-size: 15px;
+        line-height: 24px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .carousal_contaier{
+        width: 100%;
+        padding: 5%;
+        margin-top: 25px;
+
+    }
+    .carousal_contaier img{
+        width: 100%;
+    }
 }

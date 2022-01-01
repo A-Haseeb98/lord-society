@@ -52,14 +52,13 @@ function Navbar() {
                 </div>
 
                 {toggle ?
-                    <div>
                         <ul className="menu_section_mobile">
                             <li>Home</li>
                             <li>About Us</li>
                             <li>Roadmap</li>
                             <li>Our Team</li>
                             <li>FAQ</li>
-                        </ul></div>
+                        </ul>
                     : null
                 }
             </div>
