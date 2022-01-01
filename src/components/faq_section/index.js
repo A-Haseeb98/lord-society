@@ -1,4 +1,3 @@
-import MEN from '../../assets/images/1.png'
 import './style/index.css'
 import Accordion from 'react-bootstrap/Accordion';
 import Card from 'react-bootstrap/Card';
@@ -25,7 +24,7 @@ function ContextAwareToggle({ children, eventKey, callback }) {
     );
 }
 
-function Faq_section() {
+function FaqSection() {
     return (
         <div className="faq_container">
             <h1 className='theme-heading'> FAQ </h1>
@@ -80,4 +79,4 @@ function Faq_section() {
     )
 }
 
-export default Faq_section;
+export default FaqSection;

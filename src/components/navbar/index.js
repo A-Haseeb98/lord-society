@@ -2,7 +2,6 @@ import './style/index.css'
 import LOGO from '../../assets/images/logo.png'
 import { BsDiscord } from 'react-icons/bs'
 import { FaTwitterSquare, FaAlignRight, FaInstagram, FaAlignJustify } from 'react-icons/fa'
-import { HiOutlineMenuAlt4 } from 'react-icons/hi';
 import { useState } from 'react';
 
 function Navbar() {

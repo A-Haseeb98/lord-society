@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import { Navbar, Cover, Footer, Welcome, JoinTheClub, Faq_section, RoadMap } from './components';
+import { Navbar, Cover, Footer, Welcome, JoinTheClub, FaqSection, RoadMap } from './components';
 
 function App() {
   return (
@@ -10,7 +9,7 @@ function App() {
       <Welcome />
       <JoinTheClub />
       <RoadMap/>
-      <Faq_section />
+      <FaqSection />
       <Footer />
     </div>
   );
