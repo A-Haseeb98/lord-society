@@ -1,36 +1,15 @@
 .footer_container{
     background-color: black;
-    padding: 100px;
+    /* width: 100%; */
 }
 
-.first_section{
-    text-align: center;
-    padding: 50px;
-    width: 80%;
-    margin: auto;
-}
-
-.first_section h1{
-    margin-top: 0;
-    margin-bottom: 20px;
-    line-height: 50px;
-    font-size: 50px;
-    color: #f8f8f8;
-    font-weight: 400;
-
-}
-
-.line_image_1, .line_image_2{
-    height: 1px;
-    width: 100%;
-}
 
 .last_section{
     background-color: black;
     margin-top: -0.5px;
     padding-top: 50px;
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
 }
 
 .last_section img{
@@ -40,11 +19,12 @@
     color: #bdbdbd;
     font-size: 13px;
     line-height: 21px;
+    margin-top: 10px;
     font-family: 'Poppins', sans-serif;
     
 }
 .footer_icons_container{
-    margin-top: 30px;
+    margin-top: 10px;
 }
 .footer_icons_container span {
     color: #f8f8f8;
@@ -53,67 +33,45 @@
     padding: 0 9px;
 }
 
+.footer_icons_container span:hover{
+    color: #ff0066;
+    cursor: pointer;
+}
+
 
 @media screen and (max-width: 768px) {
    
     .footer_container{
+        margin-bottom: 00px;
         padding: 0px;
-        padding-bottom: 100px;
-
+        padding-bottom: 10px;
     }
-    
-    .first_section{
-        padding: 0; 
-        width: 100%;
-    }
-    
-    
-    .first_section h1{
-        margin-top: 0;
-        margin-bottom: 20px;
-        line-height: 33px;
-        font-size: 25px;
-        color: #f8f8f8;
-        font-weight: 100;
-    
-    }
-    
     .last_section{
-        background-color: black;
         margin-top: -0.5px;
         padding-top: 50px;
         text-align: center;
-        margin-bottom: 80px;
+        margin-bottom: 0px;
         width: 100%;
     }
     
     .last_section img{
         height: 25px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
     .last_section p{
         color: #bdbdbd;
         font-size: 13px;
         line-height: 21px;
         font-family: 'Poppins', sans-serif;
+        margin: 0;
     }
     .footer_icons_container{
-        margin-top: 30px;
+        margin-top: 5px;
     }
     .footer_icons_container span {
         color: #f8f8f8;
         line-height: 35px;
         font-size: 27px;
         padding: 0 9px;
-    }
-    .line_image_1{
-        height: 1px;
-        width: 80%;
-        margin-bottom: 50px;
-    }
-    .line_image_2{
-        height: 1px;
-        width: 80%;
-        margin-top: 50px;
     }
   }
