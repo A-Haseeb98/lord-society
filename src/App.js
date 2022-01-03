@@ -1,14 +1,10 @@
 import './App.css';
-import { Navbar, Cover, Footer } from './components';
+import AppRouter from './config/router';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Cover />
-      <Footer />
-      {/* <Footer /> */}
-
+        <AppRouter/>
     </div>
   );
 }

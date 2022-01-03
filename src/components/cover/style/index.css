@@ -1,7 +1,7 @@
 .cover_container{
     background-image: url('../../../assets/images/background.png');
     background-size: contain;
-    height: 100vh;
+    height: 95vh;
     background-repeat: no-repeat;
     background-position: center;
     /* background-color: rgb(233, 23, 23); */
@@ -22,7 +22,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    top: 0%;
+    bottom: 50px;
     height: 100%;
     padding: 50px 0;
 }
@@ -31,12 +31,11 @@
     font-size: 105px;
     line-height: 105px;
     color: #f8f8f8;
-    margin-bottom: 15px;  
-    mix-blend-mode: color-dodge;
+    /* mix-blend-mode: color-dodge; */
 }
 
 .cover_container button{
-    margin-bottom: 75px;
+    margin-top: -30px;
 }
 .arrow{
     color: #f8f8f8;
@@ -55,7 +54,6 @@
         height: 100vh;
         background-repeat: no-repeat;
         background-position: center;
-        background-color: rgb(233, 23, 23);
         display: flex;
         justify-content: center;
         align-items: flex-start;
@@ -68,7 +66,6 @@
         line-height: 85px;
         color: #f8f8f8;
         margin-bottom: 15px;  
-        mix-blend-mode: color-dodge;
     }
     
 }
@@ -79,6 +76,7 @@
 .cover_container{
     background-size: cover;
     height: 450px;
+    padding: 0;
 }
     
 .cover_container img{
@@ -93,19 +91,16 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    top: 0%;
+    top: 20px;
     height: 100%;
-    padding: 50px 0;
+    padding: 0px 0;
 }
 .main_heading{
     font-size: 34px;
     line-height: 36px;
-    margin-top: 80PX;
 }
 
 .cover_container button{
-    margin-bottom: 15px;
+    margin-top: 50px;
 }
-
-
 }

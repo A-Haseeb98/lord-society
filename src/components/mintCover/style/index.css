@@ -1,0 +1,257 @@
+.mint_cover_container{
+    background-image: url('../../../assets/images/background.png');
+    background-size: contain;
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-color: rgb(233, 23, 23); */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+
+.mint_cover_container img{
+    height: 560px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.mint_cover_content{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 50px;
+    height: 100%;
+    /* padding: 50px 0; */
+}
+.mint_main_heading{
+    text-align: center;
+    font-size: 75px;
+    line-height: 75px;
+    color: #f8f8f8;
+    margin-top: 60px;
+    /* mix-blend-mode: color-dodge; */
+}
+
+.cover_container button{
+    /* margin-top: -30px; */
+}
+
+/* mint section */
+.sellector_buttons_wrapper {
+    padding: 20px 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    width: 100%;
+}
+.sellector_buttons_wrapper .plus_minus_button {
+    background: linear-gradient(160deg, #121FCF 0%, #f2295b 100%);
+    height: 40px;
+    width: 40px;
+    border: 1px solid white ;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 500 !important;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.sellector_buttons_wrapper .plus_minus_button:hover {
+    /* background-image: linear-gradient(to right, #00ffbd, #00f2d2, #00e5df, #00d6e5, #2dc6e2); */
+    transform: scale(1.02);
+}
+
+.connect_btn {
+    background-image: linear-gradient(160deg, #121FCF 0%, #f2295b 100%);
+    line-height: 30px;
+    font-size: 30px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 12px 24px;
+    margin-top: 5px;
+    width: 400px;
+}
+.connect_btn:hover {
+    background-image: linear-gradient(320deg, #121FCF 0%, #f2295b 100%);
+}
+.mint_container{
+    background-color: rgba(0,0, 0, 0.3);
+    border-radius:  25px;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+.quantity{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    display:block;
+    margin-bottom: -7px;    
+}
+.mint_qantity{
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+.mint_price{
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+    width: 400px;
+    margin-top: 10px ;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.inst_para{
+    font-family: 'Poppins', sans-serif; 
+}
+
+.message_box {
+    font-size: 28px;
+    line-height: 36px;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 1050px) {
+    .mint_cover_container{
+        background-size: cover;
+        height: 800px;
+        background-repeat: no-repeat;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+.mint_cover_container{
+    background-size: cover;
+    height: 450px;
+    margin-bottom: 270px;
+}
+    
+.mint_cover_container img{
+    padding-top: 50px;
+    height: 420px;
+    margin: 0 auto;
+    width: 100%;
+}
+.mint_cover_content{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    top: 0%;
+    height: 100%;
+    padding: 0px 0;
+}
+.mint_main_heading{
+    font-size: 34px;
+    line-height: 36px;
+    margin-top: 240px;
+}
+
+.cover_container button{
+    margin-bottom: 15px;
+}
+
+.mint_container {
+    transform: translate(0%, 30px);
+    position: static;
+    background: none;
+}
+
+.sellector_buttons_wrapper {
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    width: 100%;
+}
+.sellector_buttons_wrapper .plus_minus_button {
+    background: linear-gradient(160deg, #121FCF 0%, #f2295b 100%);
+    height: 40px;
+    width: 40px;
+    border: 1px solid white ;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 500 !important;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 !important;
+    
+}
+.sellector_buttons_wrapper .plus_minus_button:hover {
+    /* background-image: linear-gradient(to right, #00ffbd, #00f2d2, #00e5df, #00d6e5, #2dc6e2); */
+    transform: scale(1.02);
+}
+
+.connect_btn {
+    background-image: linear-gradient(160deg, #121FCF 0%, #f2295b 100%);
+    line-height: 25px;
+    font-size: 25px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 12px 24px;
+    margin-top: 5px;
+    width: 90%;
+}
+.connect_btn:hover {
+    background-image: linear-gradient(320deg, #121FCF 0%, #f2295b 100%);
+}
+.mint_container{
+    background-color: rgba(0,0, 0, 0.3);
+    border-radius:  25px;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    }
+.quantity{
+    font-size: 22px;
+}
+.mint_qantity{
+    font-size: 22px;
+}
+.mint_price{
+    color: white;
+    font-size: 22px;
+    letter-spacing: 0.03em;
+    width: 100%;
+}
+
+.message_box {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+
+
+}
