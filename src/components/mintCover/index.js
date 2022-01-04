@@ -49,13 +49,11 @@ function MintCover() {
                         {(price * quantity).toFixed(2)} ETH
                     </p>
                     <p className="text-center inst_para text-white font-weight-bold">
-                        You can mint up to 3 Mutant per transaction. <br />
+                        You can mint up to 3 Lords per transaction. <br />
                     </p>
                     <button
-                        className="connect_btn"
-                        onClick={() => alert('hi')}
-                    >
-                        Confirm
+                        className="connect_btn" >
+                        Mint
                     </button>
                 </div>
                 {/* <button className='theme-btn mint_raffle_button'>Join The Raffle</button> */}

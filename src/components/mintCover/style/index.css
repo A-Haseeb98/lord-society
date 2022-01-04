@@ -20,7 +20,9 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
+    /* justify-content: space-between; */
+
     align-items: center;
     bottom: 50px;
     height: 100%;
@@ -76,7 +78,6 @@
     color: white;
     border: none;
     border-radius: 10px;
-    text-transform: uppercase;
     padding: 12px 24px;
     margin-top: 5px;
     width: 400px;
@@ -144,7 +145,7 @@
 .mint_cover_container{
     background-size: cover;
     height: 450px;
-    margin-bottom: 270px;
+    margin-bottom: 170px;
 }
     
 .mint_cover_container img{
@@ -166,7 +167,7 @@
 .mint_main_heading{
     font-size: 34px;
     line-height: 36px;
-    margin-top: 240px;
+    margin-top: 20px;
 }
 
 .cover_container button{
@@ -174,9 +175,11 @@
 }
 
 .mint_container {
-    transform: translate(0%, 30px);
+    /* transform: translate(0%, 30px); */
     position: static;
     background: none;
+    margin-top: 130px;
+    background-color: transparent !important;
 }
 
 .sellector_buttons_wrapper {
@@ -216,7 +219,6 @@
     color: white;
     border: none;
     border-radius: 10px;
-    text-transform: uppercase;
     padding: 12px 24px;
     margin-top: 5px;
     width: 90%;
@@ -251,7 +253,4 @@
     font-size: 20px;
     line-height: 24px;
 }
-
-
-
 }
