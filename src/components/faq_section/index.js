@@ -29,7 +29,7 @@ function FaqSection() {
         <div className="faq_container">
             <h1 className='theme-heading'> FAQ </h1>
             <div>
-                <Accordion defaultActiveKey="0">
+                <Accordion defaultActiveKey="">
                     <Card>
                         <Card.Header>
                             <ContextAwareToggle eventKey="0">What is NFT?</ContextAwareToggle>
