@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import RafflePage from "../pages/minting";
 import MintPage from "../pages/raffle";
 function AppRouter() {

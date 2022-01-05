@@ -2,12 +2,14 @@ import MEN from '../../assets/images/new.png'
 import './style/index.css'
 // import { FaAngleDoubleDown } from 'react-icons/fa'
 import { HiPlus, HiMinus } from 'react-icons/hi'
-import { click } from '@testing-library/user-event/dist/click'
+import { GrFormClose } from 'react-icons/gr'
+
 import { useState } from 'react'
 
 function MintCover() {
     let price = 0.09;
     const [quantity, setQuantity] = useState(1)
+    const [close, setClose] = useState(false)
 
 
     let clickHandler = (num, sign) => {
@@ -30,7 +32,13 @@ function MintCover() {
                     <div className="message_box">
                         <p className='alert-p'>Minting Is Opened <br /> For Whitelisted Addresses. </p>
                     </div>
-
+                    {
+                        close ? <div className='notification_box'>
+                        <p><span className='type'>Error! </span> Email address is already registered.</p>
+                        <span onClick={()=>setClose(false)} className='cut'><GrFormClose/></span>
+                </div> : null
+                    }
+                    
                     <div className="sellector_buttons_wrapper">
                         <button className='plus_minus_button' onClick={() => clickHandler(1, '-')}>
                             <HiMinus color='white' />
@@ -52,6 +60,7 @@ function MintCover() {
                         You can mint up to 3 Lords per transaction. <br />
                     </p>
                     <button
+                        onClick={()=>setClose(true)}
                         className="connect_btn" >
                         Mint
                     </button>
