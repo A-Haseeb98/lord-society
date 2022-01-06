@@ -1,5 +1,5 @@
 import './App.css';
-import { Navbar, Cover, Footer, Welcome, JoinTheClub, FaqSection, RoadMap } from './components';
+import { Navbar, Cover, Footer, Welcome, JoinTheClub, FaqSection, RoadMap, Artist } from './components';
 
 function App() {
   return (
@@ -9,8 +9,10 @@ function App() {
       <Welcome />
       <JoinTheClub />
       <RoadMap/>
+      <Artist/>
       <FaqSection />
       <Footer />
+
     </div>
   );
 }

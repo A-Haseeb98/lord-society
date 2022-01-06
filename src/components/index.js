@@ -5,6 +5,7 @@ import Welcome from "./welcome_section"
 import JoinTheClub from "./join_the_club_section";
 import FaqSection from "./faq_section";
 import RoadMap from "./roadmap";
+import Artist from "./artist_section";
 export {
     Navbar,
     Cover,
@@ -12,5 +13,6 @@ export {
     Welcome,
     JoinTheClub,
     FaqSection,
-    RoadMap
+    RoadMap,
+    Artist
 }

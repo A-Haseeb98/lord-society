@@ -22,7 +22,7 @@ function Navbar() {
                         <li>Home</li>
                         <li>About Us</li>
                         <li>Roadmap</li>
-                        <li>Our Team</li>
+                        <li>Our Artist</li>
                         <li>FAQ</li>
                     </ul>
                 </div>
@@ -55,7 +55,7 @@ function Navbar() {
                             <li>Home</li>
                             <li>About Us</li>
                             <li>Roadmap</li>
-                            <li>Our Team</li>
+                            <li>Our Artist</li>
                             <li>FAQ</li>
                         </ul>
                     : null

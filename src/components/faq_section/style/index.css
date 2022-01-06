@@ -1,16 +1,22 @@
 .faq_container{
     flex-direction: column;
-    height: 100vh;
-    padding: 0 17%;
+    max-width: 1110px;
+    width: 98%;
     background-color: black;
     text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.faq_container h1{
+  margin-bottom: 20px;
 }
   .faq_header{
       display: flex;
       justify-content: space-between;
       align-items: center;
       font-family: 'Audiowide', sans-serif;
-      padding: 10px;
+      padding: 10px 0px;
   }
   .faq_header h3 {
     font-size: 25px !important;

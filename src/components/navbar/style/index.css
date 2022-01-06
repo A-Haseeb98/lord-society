@@ -5,8 +5,10 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center ;
-    height: 90px;
-    padding: 0 9%;
+    height: 94px;
+    width: 98%;
+    max-width: 1110px;
+    margin: 0 auto;
 }
 .logo_container{
     height: 70%;

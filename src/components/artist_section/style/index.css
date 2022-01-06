@@ -1,0 +1,53 @@
+.artist_container{
+    text-align: center;
+    max-width: 1110px;
+    width: 98%;
+    margin: auto;
+    margin-bottom: 80px;
+
+}
+.artist_container p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    width: 87%;
+    padding-left: 50px;
+    font-size: 15px;
+    line-height: 24px;
+    margin: auto;
+    margin-bottom: 20px
+}
+.artist_container h1{
+    text-align: left;
+    padding-left: 50px;
+    font-size: 50px;
+    line-height: 50px;
+    padding-bottom: 15px;
+}
+.second_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second_section .image_wrapper{
+    width: 40%;
+    background-image: linear-gradient(160deg, #121FCF 0%, #f2295b 100%);  
+    border: none ;
+    padding: 15px;
+
+}
+
+.second_section .image_wrapper img{
+    width: 100%;
+}
+
+.second_section .content_wrapper{
+    width: 60%;
+    color: white;
+}
+.second_section .content_wrapper p{
+    font-size: 15px;
+    line-height: 24px;
+    width: 100%;
+    text-align: left;
+}

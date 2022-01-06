@@ -13,9 +13,7 @@ function RoadMap() {
                         </div>
                     </div>
                     <div className='content_section'>
-                        <h2 >
-                            NFT  <br />
-                            The Lord Society</h2>
+                        <h2 > NFT <br />The Lord Society</h2>
 
                         <p>Quality comes first. Our goal with Lord society is to build the most insightful community in the NFT space and bring the most USEFUL utilities possible.
                             <br /><br />

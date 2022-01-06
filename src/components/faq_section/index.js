@@ -48,10 +48,10 @@ function FaqSection() {
                     </Card>
                     <Card>
                         <Card.Header>
-                            <ContextAwareToggle eventKey="2">How can I use my NFT?</ContextAwareToggle>
+                            <ContextAwareToggle eventKey="2">What does "MINT" means?</ContextAwareToggle>
                         </Card.Header>
                         <Accordion.Collapse eventKey="2">
-                            <Card.Body>You will be able to use your NFT as an avatar in the metaverse and our future video game.</Card.Body>
+                            <Card.Body>NFT Minting is the process by which your digital art or digital content becomes a part of the Ethereum blockchain.</Card.Body>
                         </Accordion.Collapse>
                     </Card>
                     <Card>
@@ -59,18 +59,9 @@ function FaqSection() {
                             <ContextAwareToggle eventKey="3">How much does it cost to buy one Lord Token?</ContextAwareToggle>
                         </Card.Header>
                         <Accordion.Collapse eventKey="3">
-                            <Card.Body>The prices of all the tokens are unique and depends on the avatar you buy.</Card.Body>
+                            <Card.Body>The price will be revealed soon.</Card.Body>
                         </Accordion.Collapse>
                     </Card>
-                    <Card>
-                        <Card.Header>
-                            <ContextAwareToggle eventKey="4">Why did you choose Lords?</ContextAwareToggle>
-                        </Card.Header>
-                        <Accordion.Collapse eventKey="4">
-                            <Card.Body>When we created the Lord Society, the team was looking for a realistic way to embody human features. After many discussions, we ended up agreeing on the fact that all we like is money and gold, which is every Lord's main ornaments.</Card.Body>
-                        </Accordion.Collapse>
-                    </Card>
-
                 </Accordion>
             </div>
         </div>
