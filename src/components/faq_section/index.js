@@ -26,7 +26,7 @@ function ContextAwareToggle({ children, eventKey, callback }) {
 
 function FaqSection() {
     return (
-        <div className="faq_container">
+        <div id='faq' className="faq_container">
             <h1 className='theme-heading'> FAQ </h1>
             <div>
                 <Accordion defaultActiveKey="">

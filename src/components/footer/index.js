@@ -12,16 +12,16 @@ function Footer() {
                 <img className='line_image_1' src={LINE} alt='line' />
 
                 <h1>Become A Lord<br />Join Our Discord</h1>
-                <button className='theme-btn'>Join Now </button>
+                <button onClick={()=>window.location.href = 'https://discord.com/invite/lordsociety'} className='theme-btn'>Join Now </button>
                 <img className='line_image_2' src={LINE} alt='line' />
             </div>
             <div className='last_section'>
                 <img src={LOGO} alt="footer logo" />
                 <p>© 2021 Lord Society - NFT. All rights reserved.</p>
                 <div className="footer_icons_container">
-                    <span><FaInstagram /></span>
-                    <span><FaTwitterSquare /></span>
-                    <span><BsDiscord /></span>
+                    <span onClick={()=>window.location.href = 'https://www.instagram.com/lordsocietynft/'}><FaInstagram /></span>
+                    <span onClick={()=>window.location.href = 'https://twitter.com/lordsociety_nft'}><FaTwitterSquare /></span>
+                    <span onClick={()=>window.location.href = 'https://discord.com/invite/lordsociety'}><BsDiscord /></span>
                 </div>
             </div>
         </div>

@@ -2,7 +2,7 @@ import './style/index.css'
 import LINE from '../../assets/images/vertical_line.png'
 function RoadMap() {
     return (
-        <div className='roadmap_container'>
+        <div id='road_map' className='roadmap_container'>
             <h1 className='theme-heading'>ROADMAP</h1>
             <div className='roadmap_wrapper'>
                 <div className='r_section'>
@@ -13,7 +13,7 @@ function RoadMap() {
                         </div>
                     </div>
                     <div className='content_section'>
-                        <h2 > NFT <br />The Lord Society</h2>
+                        <h2 > Welcome to <br />The Lord Society</h2>
 
                         <p>Quality comes first. Our goal with Lord society is to build the most insightful community in the NFT space and bring the most USEFUL utilities possible.
                             <br /><br />
@@ -65,9 +65,7 @@ function RoadMap() {
                             Casino  <br />
                             Development</h2>
 
-                        <p>We already have our land in Decentraland metaverse and we will build a casino there.
-                            Holders of Lord NFTs will be able to play with their $LOR token. They will also receive 10% of all casino profits,
-                            with proceeds sent directly to the wallets holding Lord Society (accessible for holders of more than 3 months owners).</p>
+                        <p>Holders of Lord NFTs will be able to play with their $LOR token in our future casino in Decentraland Metaverse. They will also receive 10% of all casino profits, with proceeds sent directly to the wallet holding Lord Society (accessible for holders of more than 3 months owners).</p>
                     </div>
                     <div className='num_section'>
                         <h1 className='theme-heading'>04</h1>
@@ -98,9 +96,7 @@ function RoadMap() {
 
                 <div className='l_section'>
                     <div className='content_section'>
-                        <h2>
-                            Welcome to  <br />
-                            The Lord Society</h2>
+                        <h2>Merch & Series <br />  Documentary</h2>
 
                         <p>A merch store will be set up, and free merch will be sent to everyone who holds for more than two months. Merch will consist of hoodies, kids'
                             toys (collectibles), tees, and various accessories. All the roadmap steps (meeting in LA, physical events, merchandise process, giveaway delivery …) will be filmed and documented in a documentary series.

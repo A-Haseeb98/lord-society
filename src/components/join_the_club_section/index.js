@@ -7,7 +7,7 @@ import './style/index.css'
 
 function JoinTheClub() {
     return (
-        <div className="join_container">
+        <div id='about' className="join_container">
             <div className='images_contaier'>
                 <div>
                     <img src={MEN1} alt='pic' />

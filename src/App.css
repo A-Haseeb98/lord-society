@@ -19,7 +19,7 @@ body {
     padding: 12px 24px;
 }
 
-.first_section button:hover {
+.theme-btn:hover {
     -webkit-animation: action 1s infinite  alternate;
     animation: action 1s infinite  alternate;
 }

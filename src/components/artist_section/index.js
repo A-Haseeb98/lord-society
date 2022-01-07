@@ -2,15 +2,20 @@ import './style/index.css'
 import PIC from '../../assets/images/artist.jpeg'
 function Artist() {
     return (
-        <div className="artist_container">
+        <div id='artist' className="artist_container">
             <div>
                 <h1 className='theme-heading'>The Artist</h1>
                 <p>Meet Our Artist, Taking his 3D Art From The Screen Of Blockbusters including Frozen (2013) and
                     Spiderman (No Way Home 2021), Into The word of Lords. The Lord Society is brought to you by our
                     digital artists. As they became the most wanted for the highly influential media giants in the world.</p>
             </div>
-            <div className='second_section'> 
+            <div className='second_section'>
                 <div className='image_wrapper'>
+                    <div className='design_container'>
+                        <div className='left'>2</div>
+                        <div className='right'>9</div>
+
+                    </div>
 
                     <img src={PIC} alt='picture' />
                 </div>

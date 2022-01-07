@@ -1,8 +1,10 @@
 .welcome_container{
     display: flex;
     height: 100vh;
-    padding: 0 17%;
+    max-width: 1110px;
+    width: 98%;
     background-color: black;
+    margin: auto;
 }
 .content_container{
     width: 50%;
@@ -10,7 +12,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: center !important;
+    padding-left: 50px !important;
+
 }
 
 .content_container p{
@@ -18,6 +22,7 @@
     font-size: 15px;
     line-height: 24px;
     color: #999999;
+    
 }
 
 .content_container p span{
@@ -33,6 +38,9 @@ align-items: center;
 }
 .carousal_contaier img{
     width: 100%;
+}
+.swiper-pagination-bullet{
+    background: #F8F8F8 !important;
 }
 /* ======================= */
 
@@ -70,10 +78,11 @@ align-items: center;
 @media screen and (max-width: 768px) {
 
     .welcome_container{
-        margin-top: 45px;
         display: block;
         height: fit-content;
         padding: 0;
+        padding-top: 15px ;
+
     }
     .content_container{
         width: 100%;

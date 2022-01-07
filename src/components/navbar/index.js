@@ -3,6 +3,8 @@ import LOGO from '../../assets/images/logo.png'
 import { BsDiscord } from 'react-icons/bs'
 import { FaTwitterSquare, FaAlignRight, FaInstagram, FaAlignJustify } from 'react-icons/fa'
 import { useState } from 'react';
+import { HashLink } from 'react-router-hash-link';
+
 
 function Navbar() {
 
@@ -19,17 +21,17 @@ function Navbar() {
                 </div>
                 <div>
                     <ul className="menu_section">
-                        <li>Home</li>
-                        <li>About Us</li>
-                        <li>Roadmap</li>
-                        <li>Our Artist</li>
-                        <li>FAQ</li>
+                        <li ><HashLink smooth to="#home">Home</HashLink></li>
+                        <li ><HashLink smooth to="#about">About Us</HashLink></li>
+                        <li ><HashLink smooth to="#road_map">Roadmap</HashLink></li>
+                        <li ><HashLink smooth to="#artist">Our Artist</HashLink></li>
+                        <li ><HashLink smooth to="#faq">FAQ</HashLink></li>
                     </ul>
                 </div>
                 <div className="icons_container">
-                    <span><FaInstagram /></span>
-                    <span><FaTwitterSquare /></span>
-                    <span><BsDiscord /></span>
+                    <span onClick={()=>{window.location.href = 'https://www.instagram.com/lordsocietynft/'}}><FaInstagram /></span>
+                    <span onClick={()=>{window.location.href = 'https://twitter.com/lordsociety_nft'}}><FaTwitterSquare /></span>
+                    <span onClick={()=>{window.location.href = 'https://discord.com/invite/lordsociety'}}><BsDiscord /></span>
                 </div>
             </div>
             {/* Mobile View */}
@@ -40,9 +42,9 @@ function Navbar() {
                     </div>
 
                     <div className="icons_container_mobile">
-                        <span><FaInstagram /></span>
-                        <span><FaTwitterSquare /></span>
-                        <span><BsDiscord /></span>
+                    <span onClick={()=>{window.location.href = 'https://www.instagram.com/lordsocietynft/'}}><FaInstagram /></span>
+                    <span onClick={()=>{window.location.href = 'https://twitter.com/lordsociety_nft'}}><FaTwitterSquare /></span>
+                    <span onClick={()=>{window.location.href = 'https://discord.com/invite/lordsociety'}}><BsDiscord /></span>
                     </div>
                     <div className='toggle_button'>
                         <button onClick={() => handleClick(toggle)} className='navbar_btn_mobile'>
@@ -51,13 +53,13 @@ function Navbar() {
                 </div>
 
                 {toggle ?
-                        <ul className="menu_section_mobile">
-                            <li>Home</li>
-                            <li>About Us</li>
-                            <li>Roadmap</li>
-                            <li>Our Artist</li>
-                            <li>FAQ</li>
-                        </ul>
+                    <ul className="menu_section_mobile">
+                        <li ><HashLink smooth to="#home">Home</HashLink></li>
+                        <li ><HashLink smooth to="#about">About Us</HashLink></li>
+                        <li ><HashLink smooth to="#road_map">Roadmap</HashLink></li>
+                        <li ><HashLink smooth to="#artist">Our Artist</HashLink></li>
+                        <li ><HashLink smooth to="#faq">FAQ</HashLink></li>
+                    </ul>
                     : null
                 }
             </div>

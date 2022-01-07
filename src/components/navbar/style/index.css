@@ -60,8 +60,10 @@
     display: none;
 }
 /* ========================================== */
-
-
+li a, li a:hover, li a:focus, li a:active {
+    text-decoration: none !important;
+    color: inherit;
+}
 
 
 @media screen and (max-width: 768px) {
@@ -128,4 +130,11 @@
     padding: 20px 15px;
     border-bottom: 1px solid white;
 }
+
+.menu_section_mobile li:last-child{
+ 
+    border-bottom: none;
+}
+
+
 }

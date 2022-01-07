@@ -1,10 +1,13 @@
 .join_container{
     display: flex;
-    height: 100vh;
-    padding: 0 17%;
+    height: 98%;
+    max-width: 1110px;
     background-color: black;
+    margin: auto;
+    margin-bottom: 50px;
 }
 .content_container{
+    padding-left: 20px;
     flex-basis: 50%;
     display: flex;
     flex-direction: column;
@@ -14,7 +17,8 @@
 
 }
 .content_container h1{
-    width: 100%;
+    margin-right: auto ;
+    margin-bottom: 20px;
 }
 
 .content_container p{
