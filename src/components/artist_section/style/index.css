@@ -5,10 +5,11 @@
     margin: auto;
     margin-bottom: 80px;
     padding-top: 20px;
+    color: #f8f8f8;
+
 
 }
 .artist_container p{
-    color: white;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     width: 87%;
@@ -29,21 +30,47 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 30px;
 }
 .second_section .image_wrapper{
-    width: 40%;
+    width: 38%;
     border: none ;
+    position: relative;
 }
 
+.design_container{
+    position: absolute;
+    width: calc(100% + 30px);
+    height: calc(100% + 30px);
+    z-index: -22222;
+    top: -15px;
+    left: -15px;
+}
+
+.design_container div.left{
+   height: 50%;
+   width: 50%;
+   margin-right: auto;
+   background-image: linear-gradient(210deg, #121FCF 0%, #f2295b 100%);    height: 50%;
+}
+
+
+.design_container div.right{
+    width: 50%;
+    margin-left: auto;
+    background-image: linear-gradient(30deg, #121FCF 0%, #f2295b 100%);   
+    height: 50%;
+ }
 
 .second_section .image_wrapper img{
     width: 100%;
-    border-radius: 10px;
+    margin: 0;
 }
 
 .second_section .content_wrapper{
     width: 60%;
-    color: white;
+    color: #f8f8f8;
+    padding: 20px ;
 }
 .second_section .content_wrapper p{
     font-size: 15px;
@@ -57,16 +84,14 @@
         text-align: center;
         max-width: 1110px;
         width: 98%;
-        margin-top: -20px;
+        margin-top: -30px;
         margin-bottom: 65px;
     
     }
     .artist_container p{
-        color: white;
-        font-family: 'Poppins', sans-serif;
         text-align: center;
-        width: 87%;
-        padding: 5px;
+        width:100%;
+        padding: 0 10px;
         font-size: 15px;
         line-height: 24px;
         margin: auto;
@@ -80,25 +105,31 @@
     }
     .second_section{
         display: block;
-
+        padding: 0 10px;
     }
     .second_section .image_wrapper{
         margin-top: 25px;
         width: 100%;
         border: none ;
-        padding:  0 7px;
+        
+    }
+    .design_container{
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
     }
     
-    
     .second_section .image_wrapper img{
-        width: 100%;
+        width: calc(100% - 20px);
+        margin-top: 10px;
     }
     
     .second_section .content_wrapper{
         margin-top: 110px ;
         width: 100%;
-        color: white;
         text-align: center;
+        padding: 0;
     }
 
     .second_section .content_wrapper h1{
@@ -113,7 +144,8 @@
         line-height: 24px;
         width: 100%;
         text-align: center;
-        padding: 0 15px;
+        padding: 05px;
+
     }
 
 }

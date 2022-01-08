@@ -4,6 +4,8 @@ body {
   font-family: 'Audiowide', sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #f8f8f8;
+  ;
 }
 
 .theme-btn{
