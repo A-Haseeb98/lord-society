@@ -11,7 +11,7 @@ function Artist() {
             </div>
             <div className='second_section'>
                 <div className='image_wrapper'>
-                    <img src={PIC} alt='picture' />
+                    <img src={PIC} loading='lazy' alt='picture' />
                 </div>
                 <div className='content_wrapper'>
                     <h1> I'm Josh Isaac D.</h1>
