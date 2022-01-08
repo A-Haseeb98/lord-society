@@ -11,12 +11,6 @@ function Artist() {
             </div>
             <div className='second_section'>
                 <div className='image_wrapper'>
-                    <div className='design_container'>
-                        <div className='left'>2</div>
-                        <div className='right'>9</div>
-
-                    </div>
-
                     <img src={PIC} alt='picture' />
                 </div>
                 <div className='content_wrapper'>

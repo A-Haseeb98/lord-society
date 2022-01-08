@@ -14,9 +14,10 @@ function Cover() {
                 </div>
                 <h1 className='main_heading'>Ready to become <br /> The Next Lord?</h1>
             </div>
-            <HashLink smooth to="#home">
-                <span className='arrow'><FaAngleDoubleDown /></span>
-            </HashLink>
+            <span className='arrow'>
+                <HashLink smooth to="#home">
+                    <FaAngleDoubleDown />
+                </HashLink></span>
 
         </div>
     )
