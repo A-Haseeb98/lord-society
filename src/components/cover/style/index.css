@@ -34,7 +34,7 @@
     line-height: 61px;
     color: #f8f8f8;
     /* margin-bottom: 15px;   */
-    mix-blend-mode: color-dodge;
+    /* mix-blend-mode: color-dodge; */
     padding: 0 !important;
 }
 
@@ -73,6 +73,7 @@ span a, span a:hover, span a:focus, span     a:active {
 .cover_container{
     background-size: cover;
     height: 370px;
+    margin-bottom: 40px;
 }
     
 .image_wrapper{

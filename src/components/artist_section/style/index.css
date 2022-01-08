@@ -4,6 +4,7 @@
     width: 98%;
     margin: auto;
     margin-bottom: 80px;
+    padding-top: 20px;
 
 }
 .artist_container p{
@@ -49,4 +50,70 @@
     line-height: 24px;
     width: 100%;
     text-align: left;
+}
+@media screen and (max-width: 768px) {
+
+    .artist_container{
+        text-align: center;
+        max-width: 1110px;
+        width: 98%;
+        margin-top: -20px;
+        margin-bottom: 65px;
+    
+    }
+    .artist_container p{
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        width: 87%;
+        padding: 5px;
+        font-size: 15px;
+        line-height: 24px;
+        margin: auto;
+        margin-bottom: 20px
+    }
+    .artist_container h1{
+        font-size: 25px;
+        line-height: 31px;
+        padding: 0%;
+        margin-bottom: 20px;
+    }
+    .second_section{
+        display: block;
+
+    }
+    .second_section .image_wrapper{
+        margin-top: 25px;
+        width: 100%;
+        border: none ;
+        padding:  0 7px;
+    }
+    
+    
+    .second_section .image_wrapper img{
+        width: 100%;
+    }
+    
+    .second_section .content_wrapper{
+        margin-top: 110px ;
+        width: 100%;
+        color: white;
+        text-align: center;
+    }
+
+    .second_section .content_wrapper h1{
+        text-align: center;
+        font-size: 30px;
+        line-height: 30px;
+        padding: 0;
+    }
+    
+    .second_section .content_wrapper p{
+        font-size: 15px;
+        line-height: 24px;
+        width: 100%;
+        text-align: center;
+        padding: 0 15px;
+    }
+
 }

@@ -87,7 +87,8 @@ align-items: center;
     .content_container{
         width: 100%;
         text-align: center !important;
-        padding: 5%;
+        padding: 0 !important;
+        padding: 10px !important;
     }
     
     .content_container p{

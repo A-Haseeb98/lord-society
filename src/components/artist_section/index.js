@@ -1,5 +1,5 @@
 import './style/index.css'
-import PIC from '../../assets/images/artist.jpeg'
+import PIC from '../../assets/images/1.jpeg'
 function Artist() {
     return (
         <div id='artist' className="artist_container">

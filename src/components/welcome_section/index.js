@@ -1,7 +1,7 @@
-import PIC1 from '../../assets/images/c1.png'
-import PIC2 from '../../assets/images/c2.png'
-import PIC3 from '../../assets/images/c3.png'
-import PIC4 from '../../assets/images/c4.png'
+import PIC1 from '../../assets/images/c2.png'
+import PIC2 from '../../assets/images/c3.png'
+import PIC3 from '../../assets/images/c4.png'
+import PIC4 from '../../assets/images/c1.png'
 
 import './style/index.css'
 import { Swiper, SwiperSlide } from "swiper/react";
